@@ -26,6 +26,8 @@
 
 .title2 {
   color: #22a6ab;
+  position: relative;
+  top: -3px;
 }
 
 .viewport {
@@ -145,4 +147,11 @@
   color: #fff;
   font-size: 1.25em;
   cursor: pointer;
+  border: 0;
+  transition: all .1s linear;
+}
+
+.button:hover {
+  box-shadow: 5px 5px 10px 1px #888;
+  font-size: 1.45em;
 }
