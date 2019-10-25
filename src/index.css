@@ -37,6 +37,20 @@
   width: 300%;
   display: flex;
   background-color: #fff;
+  position: relative;
+  transition: left .4s ease-in-out;
+}
+
+.col-container-1 {
+  left: 0;
+}
+
+.col-container-2 {
+  left: -100%;
+}
+
+.col-container-3 {
+  left: -200%;
 }
 
 .col {
@@ -109,11 +123,18 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background-color: #aaa;
 }
 
-.dots3 {
+.dot3 {
   margin-right: 0;
+}
+
+.active {
+  background-color: red;
+}
+
+.inactive {
+  background-color: #aaa;
 }
 
 .button {
