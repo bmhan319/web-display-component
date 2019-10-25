@@ -5,36 +5,51 @@ class Display extends Component {
     return(
       <div className="display-wrapper">
         <div className="title-container">
-          <h3>WINNING COMPANIES CHOOSE HIGHSPOT</h3>
+          <h3 className="title">CATCH PHRASE OR SLOGAN <span className="title2">GOES HERE</span></h3>
         </div>
-        <div className="col-container">
-          <div className="col1">
-            <img src="https://picsum.photos/id/102/400/300" alt="raspberries" />
-            <h4>Column Title</h4>
-            <div className="text-container">
-              <h6>Text1</h6>
-              <p>Text2</p>
+        <div className="viewport">
+          <div className="col-container">
+            <div className="col col1">
+              <div className="col-image-container">
+                <img className="col-image" src="https://picsum.photos/id/102/400/300" alt="raspberries" />
+              </div>
+              <h4 className="col-title">Column Title</h4>
+              <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
+              <div className="col-text-container">
+                <h6 className="col-text1">Text1</h6>
+                <p className="col-text2">Text2</p>
+              </div>
             </div>
-          </div>
-          <div className="col2">
-            <img src="https://picsum.photos/id/239/400/300" alt="dandelion" />
-            <h4>Column Title</h4>
-            <div className="text-container">
-              <h6>Text1</h6>
-              <p>Text2</p>
+            <div className="col col2">
+              <div className="col-image-container">
+                <img className="col-image" src="https://picsum.photos/id/239/400/300" alt="raspberries" />
+              </div>
+              <h4 className="col-title">Column Title</h4>
+              <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
+              <div className="col-text-container">
+                <h6 className="col-text1">Text1</h6>
+                <p className="col-text2">Text2</p>
+              </div>
             </div>
-          </div>
-          <div className="col3">
-            <img src="https://picsum.photos/id/337/400/300" alt="field" />
-            <h4>Column Title</h4>
-            <div className="text-container">
-              <h6>Text1</h6>
-              <p>Text2</p>
+            <div className="col col3">
+              <div className="col-image-container">
+                <img className="col-image" src="https://picsum.photos/id/337/400/300" alt="raspberries" />
+              </div>
+              <h4 className="col-title">Column Title</h4>
+              <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
+              <div className="col-text-container">
+                <h6 className="col-text1">Text1</h6>
+                <p className="col-text2">Text2</p>
+              </div>
             </div>
           </div>
         </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt quos est rem.</p>
-        <button type="button">Read More</button>
+        <div className="dots-container">
+          <div className="dots dots1"></div>
+          <div className="dots dots2"></div>
+          <div className="dots dots3"></div>
+        </div>
+        <button className="button" type="button">Read More</button>
       </div>
     )
   }
