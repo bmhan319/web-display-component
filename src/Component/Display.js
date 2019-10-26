@@ -50,7 +50,7 @@ class Display extends Component {
           <div className="col-container col-container-1">
             <div className="col col1">
               <div className="col-image-container">
-                <img className="col-image" src="https://picsum.photos/id/102/400/300" alt="raspberries" />
+                <img className="col-image" src="https://picsum.photos/id/102/350/300" alt="raspberries" />
               </div>
               <h4 className="col-title">Column 1 Title</h4>
               <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
@@ -61,7 +61,7 @@ class Display extends Component {
             </div>
             <div className="col col2">
               <div className="col-image-container">
-                <img className="col-image" src="https://picsum.photos/id/239/400/300" alt="raspberries" />
+                <img className="col-image" src="https://picsum.photos/id/239/350/300" alt="dandelion" />
               </div>
               <h4 className="col-title">Column 2 Title</h4>
               <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
@@ -72,7 +72,7 @@ class Display extends Component {
             </div>
             <div className="col col3">
               <div className="col-image-container">
-                <img className="col-image" src="https://picsum.photos/id/337/400/300" alt="raspberries" />
+                <img className="col-image" src="https://picsum.photos/id/337/350/300" alt="field" />
               </div>
               <h4 className="col-title">Column 3 Title</h4>
               <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
