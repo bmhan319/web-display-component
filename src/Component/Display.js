@@ -55,8 +55,8 @@ class Display extends Component {
               <h4 className="col-title">Column 1 Title</h4>
               <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
               <div className="col-text-container">
-                <h6 className="col-text1">Text1</h6>
-                <p className="col-text2">Text2</p>
+                <h6 className="col-text1">Column 1 Text1</h6>
+                <p className="col-text2">Column 1 Text2</p>
               </div>
             </div>
             <div className="col col2">
@@ -66,8 +66,8 @@ class Display extends Component {
               <h4 className="col-title">Column 2 Title</h4>
               <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
               <div className="col-text-container">
-                <h6 className="col-text1">Text1</h6>
-                <p className="col-text2">Text2</p>
+                <h6 className="col-text1">Column 2 Text1</h6>
+                <p className="col-text2">Column 2 Text2</p>
               </div>
             </div>
             <div className="col col3">
@@ -77,8 +77,8 @@ class Display extends Component {
               <h4 className="col-title">Column 3 Title</h4>
               <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
               <div className="col-text-container">
-                <h6 className="col-text1">Text1</h6>
-                <p className="col-text2">Text2</p>
+                <h6 className="col-text1">Column 3 Text1</h6>
+                <p className="col-text2">Column 3 Text2</p>
               </div>
             </div>
           </div>
