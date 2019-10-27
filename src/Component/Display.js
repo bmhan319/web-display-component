@@ -53,7 +53,7 @@ class Display extends Component {
                 <img className="col-image" src="https://picsum.photos/id/102/350/300" alt="raspberries" />
               </div>
               <h4 className="col-title">Column 1 Title</h4>
-              <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
+              <p className="col-paragraph col-paragraph1">Column 1 Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
               <div className="col-text-container">
                 <h6 className="col-text1">Column 1 Text1</h6>
                 <p className="col-text2">Column 1 Text2</p>
@@ -64,7 +64,7 @@ class Display extends Component {
                 <img className="col-image" src="https://picsum.photos/id/239/350/300" alt="dandelion" />
               </div>
               <h4 className="col-title">Column 2 Title</h4>
-              <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
+              <p className="col-paragraph  col-paragraph2">Column 2 Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
               <div className="col-text-container">
                 <h6 className="col-text1">Column 2 Text1</h6>
                 <p className="col-text2">Column 2 Text2</p>
@@ -75,7 +75,7 @@ class Display extends Component {
                 <img className="col-image" src="https://picsum.photos/id/337/350/300" alt="field" />
               </div>
               <h4 className="col-title">Column 3 Title</h4>
-              <p className="col-paragraph">Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
+              <p className="col-paragraph  col-paragraph3">Column 3 Lorem ipsum dolor, sit amet consectetur psa modi omnis adipisicing elit. Aspernatur reprehenderit eius repellat harum, accusamus recusandae? Aspernatur quae beatae sunt eligendi ipsa modi omnis ad? Adipisci provident nesciunt psa modi omnis quos est rem.</p>
               <div className="col-text-container">
                 <h6 className="col-text1">Column 3 Text1</h6>
                 <p className="col-text2">Column 3 Text2</p>

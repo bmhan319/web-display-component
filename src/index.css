@@ -112,6 +112,12 @@
   font-size: 1em;
 }
 
+.col-paragraph1,
+.col-paragraph2,
+.col-paragraph3 {
+    display: none;
+}
+
 .dots-container {
   padding: 24px 0;
   text-align: center;
@@ -161,6 +167,12 @@
     font-size: 2.5em;
   }
 
+  .viewport {
+    width: 100%;
+    height: 700px;
+    overflow: visible;
+  }
+
   .col-container {
     width: 100%;
     max-width: 976px;
@@ -168,7 +180,7 @@
     background-color: transparent;
     transition: none;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
   }
 
 
@@ -182,12 +194,12 @@
     padding: 40px 0px 36px;
     display: block;
     position: relative;
-    z-index: 0;
     transition: all .2s linear;
   }
 
   .col1 {
     top: 0px;
+    z-index: 10;
   }
 
   .col2 {
@@ -204,8 +216,6 @@
     top:-30px;
   }
 
-
-
   .col-title {
     padding-bottom: 20px;
   }
@@ -215,10 +225,29 @@
     width: 350px;
     height: 300px;
     margin-bottom: 40px;
+    filter: grayscale(100%);
   }
 
   .col-paragraph {
+    position: absolute;
+    bottom: -110px;
+  }
+
+  .col-paragraph1 {
     display: none;
+    width: 300%;
+  }
+
+  .col-paragraph2 {
+    display: none;
+    width: 300%;
+    left: -100%;
+
+  }
+  .col-paragraph3 {
+    display: none;
+    width: 300%;
+    left: -200%;
   }
 
   .col-text1 {
@@ -233,16 +262,6 @@
     transition: all .2s .2s linear;
   }
 
-  .col1:hover > .col-text-container > .col-text1,
-  .col1:hover > .col-text-container > .col-text2,
-  .col2:hover > .col-text-container > .col-text1,
-  .col2:hover > .col-text-container > .col-text2,
-  .col3:hover > .col-text-container > .col-text1,
-  .col3:hover > .col-text-container > .col-text2 {
-    opacity: 1;
-    padding-top: 0;
-  }
-
   .col::after {
     content: "";
     position: absolute;
@@ -255,12 +274,32 @@
     transition: all .2s linear;
   }
 
+  .col2:hover {
+    z-index: 20;
+  }
+
+  .col:hover > .col-image-container {
+    filter: grayscale(0);
+  }
+
+  .col1:hover > .col-text-container > .col-text1,
+  .col1:hover > .col-text-container > .col-text2,
+  .col2:hover > .col-text-container > .col-text1,
+  .col2:hover > .col-text-container > .col-text2,
+  .col3:hover > .col-text-container > .col-text1,
+  .col3:hover > .col-text-container > .col-text2 {
+    opacity: 1;
+    padding-top: 0;
+  }
+
   .col:hover::after {
      height: 60px;
      visibility: visible;
   }
 
-
+  .col:hover > .col-paragraph {
+    display: block;
+  }
 
   .dots-container {
     display: none;
