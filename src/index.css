@@ -229,23 +229,23 @@
   }
 
   .col-paragraph {
+    display: block;
     position: absolute;
     bottom: -110px;
+    opacity: 0;
+    transition: opacity .5s linear;
   }
 
   .col-paragraph1 {
-    display: none;
     width: 300%;
   }
 
   .col-paragraph2 {
-    display: none;
     width: 300%;
     left: -100%;
 
   }
   .col-paragraph3 {
-    display: none;
     width: 300%;
     left: -200%;
   }
@@ -298,7 +298,7 @@
   }
 
   .col:hover > .col-paragraph {
-    display: block;
+    opacity: 1;
   }
 
   .dots-container {
