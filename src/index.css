@@ -233,7 +233,7 @@
     position: absolute;
     bottom: -110px;
     opacity: 0;
-    transition: opacity .5s linear;
+    transition: opacity .2s linear;
   }
 
   .col-paragraph1 {
